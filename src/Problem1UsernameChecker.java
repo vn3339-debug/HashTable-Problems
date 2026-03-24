@@ -20,5 +20,6 @@ public class Problem1UsernameChecker {
         attempts.put(username, attempts.getOrDefault(username, 0) + 1);
 
         System.out.println("Attempts: " + attempts.get(username));
+        System.out.println("Updated version");
     }
 }
